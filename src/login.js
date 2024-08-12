@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BE } from require('./BE/logic');
 
 function Login() {
   const [cwl, setCWL] = useState("");
@@ -9,6 +10,7 @@ function Login() {
     // Authentication logic
     console.log("CWL Username:", cwl);
     console.log("Password:", password);
+    
   };
 
   return (
