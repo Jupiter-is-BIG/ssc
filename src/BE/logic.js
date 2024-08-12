@@ -46,9 +46,10 @@ async function query(session, campus, course) {
     await Util.waitToLoad(DRIVER, By.css('div.WNUN.WOUN[data-automation-id="facetGlassPanel"]'));
     await Util.waitToLoad(DRIVER, By.css('[id^="wd-FacetedSearchResultList-PaginationText"]'));
     let sections = await DRIVER.findElements(By.css('[id^=wd-CompositeWidget-]'));
-    for (let section of sections) {
+    console.log(sections.length);
+    // for (let section of sections) {
 
-    }
+    // }
 }
 
 
