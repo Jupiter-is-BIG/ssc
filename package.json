@@ -6,11 +6,16 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "papaparse": "^5.4.1",
+=======
+    "chromedriver": "^127.0.2",
+>>>>>>> 2abf9af0087ca253831d1d3a0f67fb1daf673a4c
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
+    "selenium-webdriver": "^4.23.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -38,6 +43,10 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "tailwindcss": "^3.4.9"
+=======
+    "@types/selenium-webdriver": "^4.1.24"
+>>>>>>> 2abf9af0087ca253831d1d3a0f67fb1daf673a4c
   }
 }
